@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+  background-color: rgb(115, 116, 179);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.nav-link {
+  padding: 0 13px;
+  line-height: 50px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: rgb(8, 8, 24);
+}
+
+/* Main */
+
+.main a {
+  color: black;
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+
+.section-title {
+  font-size: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #172347;
+}
+
+.section-profile-logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Footer */
+
+.footer {
+  padding: 15px 0px;
+  background-color: rgb(115, 116, 179);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.github {
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url(./assets/img/rs_school_js.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
